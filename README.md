@@ -7,11 +7,11 @@ I have hosted the application on Google cloud.
 
 For 3 tier architecture
 Created one VPC
-in VPC created 3 subnets
+and in VPC created 3 subnets
 
-Hosted the webservers in subnet1
-Application in Subnet2
-DB in Subnet3
+Hosted the webservers in subnet1.
+Application in Subnet2.
+DB in Subnet3.
 
 Created a load balancer on top of Webservers, to manage the load routing.
 Assuming webservers will be acted as load balancer to App Servers, if not case needed another load balancer.
